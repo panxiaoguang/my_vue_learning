@@ -6,6 +6,7 @@ import { NaiveUiResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/my_vue_learning/',
   plugins: [
     vue(),
     AutoImport({
